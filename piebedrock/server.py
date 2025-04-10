@@ -12,7 +12,7 @@ class BedrockServer:
         self.raknet.name = "My Minecraft Server"
         self.raknet.modt = "PieBedrock Server"
         self.raknet.max_player_count = 10
-        self.raknet.game_protocol_version = 712
+        self.raknet.game_protocol_version = 786
         self.raknet.interface = self.interface
         
         # Configurar IP y puerto si es que son propiedades
