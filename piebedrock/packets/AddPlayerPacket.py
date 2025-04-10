@@ -1,8 +1,8 @@
 from typing import List, Optional
 from uuid import UUID
 
-class AddPlayerPacket(DataPacket):  # Inherits from the previously translated DataPacket
-    NETWORK_ID = ProtocolInfo.ADD_PLAYER_PACKET  # You need to define ProtocolInfo elsewhere
+class AddPlayerPacket(DataPacket): 
+    NETWORK_ID = ProtocolInfo.ADD_PLAYER_PACKET  # todo: define protocol info 
 
     def __init__(self):
         super().__init__()
